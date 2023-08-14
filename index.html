@@ -4,24 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <title>AtSheerinCooking - Restaurant in Bobigny</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="media/bowl-rice-solid.ico" />
+    <title>AtSheerinCooking - Restaurant à Bobigny</title>
+    <meta name="description" content="lorum ipsum" />
   </head>
   <body>
     <div class="landing">
       <header>
-        <a href="">AtSheerinCooking</a>
+        <a href="index.html" id="logo"
+          ><h2><i class="fa-solid fa-bowl-rice"></i>AtSheerinCooking</h2></a
+        >
         <nav>
-          <a href="">Menu</a>
-          <a href="">Locations</a>
+          <a href=""><i class="fa-solid fa-bars"></i>Menu</a>
+          <a href=""><i class="fa-solid fa-location-dot"></i>Réserver</a>
         </nav>
       </header>
 
       <div class="maintext">
-        <div class="tagline1">Finest treat for your taste buds</div>
-        <div class="tagline2">Fresh ingredients guaranteed</div>
-        <div class="callUs">Call us @+33 789654322</div>
-        <button>Order online</button>
+        <div class="tagline1">
+          C'est l'occasion de venir découvrir les nouvelles saveurs
+        </div>
+        <div class="tagline2">Avec des ingredients frais</div>
+        <div class="callUs">Nous appeler au 0789654322</div>
+        <button id="orderButton">Commander en ligne</button>
       </div>
     </div>
+    <h2 id="menuheading">Menu</h2>
+    <div class="menu">
+      <div class="starters">
+        <table>
+          <th colspan="2">Entrée</th>
+          <tr>
+            <td>Samoussa viande haché</td>
+            <td>&#8364; 2</td>
+          </tr>
+          <tr>
+            <td>Samoussa légumes</td>
+            <td>&#8364; 1</td>
+          </tr>
+          <tr>
+            <td>Beignet crevettes</td>
+            <td>&#8364; 1.5</td>
+          </tr>
+          <tr>
+            <td>Pakora oignons</td>
+            <td>&#8364; 1.5</td>
+          </tr>
+          <th colspan="2">Plats</th>
+          <tr>
+            <td>Biriyani agneau</td>
+            <td>&#8364; 8.5</td>
+          </tr>
+          <tr>
+            <td>Biriyani poulet</td>
+            <td>&#8364; 8.5</td>
+          </tr>
+          <tr>
+            <td>Riz blanc</td>
+            <td>&#8364; 2.5</td>
+          </tr>
+          <tr>
+            <td>Riz cantonais</td>
+            <td>&#8364; 6.5</td>
+          </tr>
+          <th colspan="2">Desserts</th>
+          <tr>
+            <td>Kheer sucré</td>
+            <td>&#8364; 3.5</td>
+          </tr>
+          <tr>
+            <td>Gulob jamun</td>
+            <td>&#8364; 3.5</td>
+          </tr>
+          <tr>
+            <td>Lassi mangue</td>
+            <td>&#8364; 4.5</td>
+          </tr>
+          <tr>
+            <td>Kesari</td>
+            <td>&#8364; 3.5</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <div id="copyright">&copy; copyright AtSheerinCooking</div>
+    </footer>
+    <script src="JS/index.js"></script>
   </body>
 </html>
